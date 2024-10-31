@@ -18,10 +18,14 @@ export default function Menu() {
                                 <Link className="nav-link active" href="/chat">Chat</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link active" href="/noticias">Noticias</Link>
+                                <Link className="nav-link active" href="/usuarios/mostrar">Usuarios</Link>
+                            </li>
+                            
+                            <li className="nav-item">
+                                <Link className="nav-link active" href="/productos/mostrar">Productos</Link>
                             </li>
                             <li className="nav-item">
-                               <Link className="nav-link active" href="/usuarios">Usuarios</Link>
+                                <Link className="nav-link active" href="/ventas/mostrar">Ventas</Link>
                             </li>
                             <li className="nav-item dropdown">
                                 <Link className="nav-link dropdown-toggle" href="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
